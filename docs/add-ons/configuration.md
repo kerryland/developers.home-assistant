@@ -73,7 +73,7 @@ RUN chmod a+x /run.sh
 CMD [ "/run.sh" ]
 ```
 
-If you don't use local build on the device or our build script, make sure that the Dockerfile also has a set of labels that include:
+If you don't use local build on the device or [our build script](TODO: Add a link explaining whatever this "build script" is, and how to use it), make sure that the Dockerfile also has a set of labels that include:
 
 ```dockerfile
 LABEL \
